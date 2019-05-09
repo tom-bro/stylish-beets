@@ -1,10 +1,47 @@
 html {
   width: 608px;
-  font-family: "PT Sans", sans-serif;
   font-family: "PT Serif", serif;
   line-height: 1.5;
   background-color: #c9b5ab;
-  color: #8f2440;
   color: #222;
   color: #3f1622;
+}
+
+header {
+  font-family: "PT Sans", sans-serif;
+  font-size: 1.5rem;
+}
+
+h1, h2 {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  color: #8f2440;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+nav ol {
+  list-style-type: none;
+}
+
+nav ol li {
+  font-size: 1.125rem;
+}
+
+#common-varieties + ol {
+  list-style-type: lower-greek;
+}
+
+li {
+  font-style: normal;
 }
