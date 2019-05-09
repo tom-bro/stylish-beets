@@ -4,10 +4,9 @@ html {
   line-height: 1.5;
   background-color: #c9b5ab;
   color: #222;
-  color: #3f1622;
 }
 
-header {
+header, nav li {
   font-family: "PT Sans", sans-serif;
   font-size: 1.5rem;
 }
@@ -15,6 +14,7 @@ header {
 h1, h2 {
   font-family: "PT Sans", sans-serif;
   font-style: normal;
+  font-size: 1.5rem;
 }
 
 img {
@@ -28,6 +28,8 @@ a {
 
 a:hover {
   text-decoration: underline;
+  color: #3f1622;
+
 }
 
 nav ol {
@@ -44,4 +46,40 @@ nav ol li {
 
 li {
   font-style: normal;
+  font-family: "PT Serif", serif;
+}
+
+figcaption {
+  font-style: italic;
+  font-size: .8rem;
+  font-weight: normal;
+  text-align: center;
+}
+
+article > p, cite {
+  font-size: .8rem;
+  font-weight: normal;
+}
+
+figure + p {
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+
+blockquote p, blockquote strong {
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: normal;
+}
+
+dl dt {
+  font-style: italic;
+}
+
+dl dd {
+  font-weight: bold;
+}
+
+dd data {
+  font-weight: normal;
 }
