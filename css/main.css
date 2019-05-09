@@ -57,7 +57,7 @@ figcaption {
   text-align: center;
 }
 
-article > p,
+.article > p,
 cite {
   font-size: .8rem;
   font-weight: normal;
