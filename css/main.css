@@ -63,7 +63,7 @@ cite {
   font-weight: normal;
 }
 
-figure + p {
+.article figure + p {
   font-weight: bold;
   font-size: 1.125rem;
 }
