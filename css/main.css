@@ -1,6 +1,6 @@
 html {
   font-family: "PT Serif", serif;
-line-height: initial;
+  line-height: initial;
   background-color: #c9b5ab;
   color: #222;
 }
@@ -59,7 +59,7 @@ figcaption {
 
 .article > p,
 cite {
-  font-size: 1rem;
+  font-size: .8rem;
   font-weight: normal;
 }
 
