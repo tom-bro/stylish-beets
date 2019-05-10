@@ -78,14 +78,18 @@ blockquote strong {
 
 dl dt {
   font-style: italic;
+  margin-bottom: .87em;
 }
 
 dl dd {
   font-weight: bold;
+  margin-left: 0;
 }
 
 dd data {
   font-weight: normal;
+  display: block;
+  margin-left: 40px;
 }
 
 aside ul {
