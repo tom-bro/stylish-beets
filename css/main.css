@@ -70,7 +70,7 @@ cite {
 
 blockquote p,
 blockquote strong {
-  font-size: 1.5rem;
+  font-size: 1.125rem;
   font-style: italic;
   font-weight: normal;
 }
@@ -89,4 +89,8 @@ dd data {
 
 aside ul {
   list-style-type: circle;
+}
+
+aside ul li {
+  font-size: .8rem;
 }
