@@ -57,9 +57,8 @@ figcaption {
   text-align: center;
 }
 
-.article > p,
-cite {
-  font-size: .8rem;
+.article > p {
+  font-size: 1rem;
   font-weight: normal;
 }
 
@@ -91,6 +90,6 @@ aside ul {
   list-style-type: circle;
 }
 
-aside ul li {
+aside ul li, cite {
   font-size: .8rem;
 }
