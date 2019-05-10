@@ -52,14 +52,14 @@ li {
 
 figcaption {
   font-style: italic;
-  font-size: .8rem;
+  font-size: 1rem;
   font-weight: normal;
   text-align: center;
 }
 
 .article > p,
 cite {
-  font-size: .8rem;
+  font-size: 1rem;
   font-weight: normal;
 }
 
@@ -70,7 +70,7 @@ cite {
 
 blockquote p,
 blockquote strong {
-  font-size: 1.125rem;
+  font-size: 1.5rem;
   font-style: italic;
   font-weight: normal;
 }
